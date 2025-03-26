@@ -39,5 +39,11 @@ namespace StudentManagerWinform
             }
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            AllStudent allStudent = new AllStudent();
+            allStudent.ShowDialog();
+        }
     }
 }
